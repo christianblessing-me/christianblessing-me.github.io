@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="shortcut icon" href="http://www.christianblessing.me/favicon.ico">
+    
+    <link rel="stylesheet" href="/css/style.min.css">
+
+    <link rel="canonical" href="http://www.christianblessing.me/mov-files-zusammenf%C3%BCgen-ohne-re-encoding/" />
+    <title>MOV Files zusammenfügen ohne re-encoding</title>
+</head>
+<body><header id="banner">
+    <h2><a href="http://www.christianblessing.me/">christianblessing.me</a></h2>
+    <nav>
+        <ul>
+            <li>
+                <a href="/about/" title="about">about</a>
+            </li><li>
+                <a href="/impressum/" title="imprint">imprint</a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main id="content">
+<article>
+    <header id="post-header">
+        <h1>MOV Files zusammenfügen ohne re-encoding</h1>
+        <div>
+                <time>September 13, 2019</time>
+            </div>
+    </header><p>Canon DSLR Kameras können oftmals nur Clips mit einer maximalen Länge von 4GB speichern, ist der eigentliche Clip länger, wird er in 4GB große Clips aufgesplittet. Möchte man später einen gesamten Clip erstellen, muss man meist den Clip zuerst re-encodieren. Mit Hilfe von <a href="https://ffmpeg.org/">ffmpeg</a> ist dieser Part einfach zu erledigen, ohne Re-Encoding.</p>
+<h1 id="concat-file-erstellen">Concat File erstellen</h1>
+<p>ffmpeg müssen wir zuerst mitteilen, welche Files zusammengefügt werden sollen, dazu erstellen wir ein einfaches <strong>concat.txt</strong> file (in unserem Beispiel führen wir drei *.mov Dateien nacheinander zusammen):
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-Bash" data-lang="Bash"><span class="line"><span class="cl">file ‘PATH/TO/YOUR/FILE/FILE01.MOV’
+</span></span><span class="line"><span class="cl">file ‘PATH/TO/YOUR/FILE/FILE02.MOV’
+</span></span><span class="line"><span class="cl">file ‘PATH/TO/YOUR/FILE/FILE03.MOV’</span></span></code></pre></div></p>
+<h1 id="dateien-zusammenführen">Dateien zusammenführen</h1>
+<p>Die Dateien mit folgendem ffmpeg Befehl zusammenführen:
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-Bash" data-lang="Bash"><span class="line"><span class="cl">ffmpeg -f concat -i concat.txt -c copy Output_Final.mov</span></span></code></pre></div></p>
+<h1 id="warum-man-nicht-einfach-cat-verwenden-kann">Warum man nicht einfach &lsquo;cat&rsquo; verwenden kann</h1>
+<p>Führt man einen normalen cat befehl aus, so werden die mov Files zwar zusammengefügt, jedoch ist der Header des finalen mov files nicht vorhanden. Die Datei hat dann zwar die angenommene Größe, jedoch kann das File ohne Header nicht von Final Cut Pro x oder Adobe Premiere eingelesen werden.</p>
+</article>
+
+        </main><footer id="footer">
+    
+</footer>
+</body>
+</html>

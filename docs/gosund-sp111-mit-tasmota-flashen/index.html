@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="shortcut icon" href="http://www.christianblessing.me/favicon.ico">
+    
+    <link rel="stylesheet" href="/css/style.min.css">
+
+    <link rel="canonical" href="http://www.christianblessing.me/gosund-sp111-mit-tasmota-flashen/" />
+    <title>Gosund SP111 mit Tasmota flashen</title>
+</head>
+<body><header id="banner">
+    <h2><a href="http://www.christianblessing.me/">christianblessing.me</a></h2>
+    <nav>
+        <ul>
+            <li>
+                <a href="/about/" title="about">about</a>
+            </li><li>
+                <a href="/impressum/" title="imprint">imprint</a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main id="content">
+<article>
+    <header id="post-header">
+        <h1>Gosund SP111 mit Tasmota flashen</h1>
+        <div>
+                <time>September 12, 2019</time>
+            </div>
+    </header>
+
+
+<div class="center">
+  <img
+    src="/images/tasmota.svg"
+    alt="Tasmota Logo"
+    decoding="async"
+  />
+</div>
+<p>Mit Hilfe eines <a href="https://www.amazon.de/keyestudio-Adapter-FT232RL-Arduino-Starter/dp/B07H3VH68F/ref=sr_1_1?ie=UTF8&amp;qid=1547594858&amp;sr=8-1&amp;keywords=keyestudio+FTDI+Basic+USB+Adapter">FTDI to USB Adapter</a> lassen sich günstige WiFi Steckdosen, z.B. die <a href="https://www.amazon.de/gp/product/B07FVT15L5/ref=ppx_yo_dt_b_asin_title_o02__o00_s01?ie=UTF8&amp;psc=1">Gosund SP111</a> mit einer neuen Firmware flashen. Damit können wir sie via <a href="https://de.wikipedia.org/wiki/MQTT">MQTT</a> oder HTTP in unsere Heimautomatisierungslösungen, wie z.B. <a href="https://www.openhab.org/docs/">OpenHab2</a> oder <a href="https://www.home-assistant.io/">Homeassistant (HASS)</a> einbinden.</p>
+<h1 id="vorab-usbasp--ftdi-to-usb">Vorab: USBasp != FTDI to USB</h1>
+<p>Da ich es schmerzlich selbst herausfinden musste, ein <a href="https://www.fischl.de/usbasp/">USBasp</a> ist etwas anderes als ein <a href="https://www.amazon.de/keyestudio-Adapter-FT232RL-Arduino-Starter/dp/B07H3VH68F/ref=sr_1_1?ie=UTF8&amp;qid=1547594858&amp;sr=8-1&amp;keywords=keyestudio+FTDI+Basic+USB+Adapter">FTDI to USB Adapter</a>. Die meisten Fernost WiFi Steckdosen haben einen <a href="https://www.mikrocontroller.net/articles/ESP8266">ESP8266</a> verbaut, dieser lässt sich nicht via USBasp oder AVR flashen - hierfür wird ein FTDI to USB Adapter benötigt.</p>
+<h1 id="vorab-gosund-sp111--gosund-ep2">Vorab: Gosund SP111 != Gosund EP2</h1>
+<p>Da mir es leider selber passiert ist: die <a href="https://www.amazon.de/Gosund-Steckdosen-erforderlich-Stromverbrauch-Fernsteurung/dp/B085RFKVW4/">Gosund EP2 Steckdosen</a>, welche gerade vermehrt auf Amazon und anderen Plattformen verkauft werden, können nicht verwendet werden. Diese Variante der Steckdose hat keine offen zugängliche Schraube auf der Rückseite, auch der interne Chip ist kein ESP8266.</p>
+<blockquote>
+<p>Update 2021: Mittlerweile lassen sich bestimmte Steckdosen auch OTA (Over the Air) mit Tasmota flashen; damit muss man Steckdoesen nicht mehr aufschreiben und Brücken löten.</p>
+</blockquote>
+<h1 id="öffnen-des-gehäuses">Öffnen des Gehäuses</h1>
+<p>Auf der Rückseite des Gehäuses befindet sich eine nach innen versetzte Kreuzschlitzschraube, diese öffnen und das Gehäuse sanft auseinanderziehen.</p>
+<p>Wir benötigen eine Verbindung zu 3.3V, TXD, RXD, GND, sowie eine Brücke zwischen GND und IO1, um den ESP8266 in den Flash-Modus zu versetzen. Ich empfehle die Brücke nicht einzulöten, 2 sek. Überbrücken beim Bootvorgang reichen aus.</p>
+<p><img src="/images/gosund_steckdose.jpeg" alt="Gosund Steckdose"></p>
+<h1 id="verbindung-zum-ftdi">Verbindung zum FTDI</h1>
+<p>Wir verbinden jetzt 3.3v mit 3.3v/5v, GND mit GND, TXD mit RXD, RXD mit TXD. Wichtig ist, dass beim Bootvorgang IO1 mit GND für ca. 2 Sek. verbunden ist, nur dann wird der Chip in den Flash-Modus versetzt. Am besten also IO1 mit GND brücken, dann erst den FTDI via USB verbinden und die Brücke nach 2 Sek. wieder lösen.</p>
+<p><img src="/images/gosund_flasher.jpeg" alt="Gosund FTDI"></p>
+<h1 id="flashvorgang">Flashvorgang</h1>
+<p>Hierzu verwenden wir den <a href="https://github.com/Grovkillen/ESP_Easy_Flasher/releases">ESP-EasyFlasher</a>, sowie das aktuellste <a href="https://github.com/arendst/Sonoff-Tasmota/releases">Tasmota Binary</a>. Das Binary entpacken und in den Ordner des ESP-EasyFlasher legen. Danach den ESP-EasyFlasher starten, den COM-Port und das Binary auswählen und den Flashvorgang starten.</p>
+<p>Nach dem Flashvorgang einmal den FTDI von USB trennen und neu verbinden (jetzt müsst ihr die Verbindung nicht mehr überbrücken).</p>
+<h1 id="tasmota-firmware-via-wifi-einrichten">Tasmota Firmware via WiFi einrichten</h1>
+<p>Nach dem erfolgreichen Flashvorgang + Reboot sollte ein neues WiFi Netzwerk im AP-Modus verfügbar sein, verbindet Euch hiermit und konfiguriert SSID, sowie das zugehörige Passwort.</p>
+<p>Wählt nach dem erneuten Reboot (automatisch, nach dem auswählen des WiFi Netzwerks) die Blitzwolf SHP (45) Firmware unter &ldquo;Einstellungen&rdquo; &ndash;&gt; &ldquo;Gerät konfigurieren aus&rdquo;. Nach einem erneuten Reboot solltet ihr bereits via Webinterface die Steckdose schalten, sowie den aktuellen Stromverbrauch sehen können.</p>
+
+
+
+<div class="center">
+  <img
+    src="/images/tasmota_screenshot.png"
+    alt="Tasmota Screenshot"
+    decoding="async"
+  />
+</div>
+<h1 id="einbindungsmöglichkeiten">Einbindungsmöglichkeiten</h1>
+<p>Die Tasmota Steckdosen könnt ihr jetzt entweder via HTTP Request oder MQTT in Eure Openhab2/Homeautomation Lösung einbinden.</p>
+</article>
+
+        </main><footer id="footer">
+    
+</footer>
+</body>
+</html>

@@ -1,7 +1,9 @@
-baseURL = 'http://christianblessing-me.github.io/blog/'
+baseURL = 'http://www.christianblessing.me/'
+#baseURL = 'http://christianblessing-me.github.io/blog/'
 languageCode = 'en-us'
 title = 'christianblessing.me'
 theme = "etch"
+publishDir = "docs"
 
 enableInlineShortcodes = true
 pygmentsCodeFences = true
