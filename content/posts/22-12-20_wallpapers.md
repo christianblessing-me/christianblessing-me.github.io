@@ -1,6 +1,6 @@
 ---
-title: "Wallpapers 2022"
-date: 2022-12-20T22:34:11+02:00
+title: "Wallpapers"
+date: 2022-12-20
 draft: false
 ---
 
