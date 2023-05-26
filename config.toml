@@ -3,7 +3,7 @@ baseURL = 'http://www.christianblessing.me/'
 languageCode = 'en-us'
 title = 'christianblessing.me'
 theme = "etch"
-publishDir = "docs"
+publishDir = "public"
 
 enableInlineShortcodes = true
 pygmentsCodeFences = true
