@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="shortcut icon" href="http://www.christianblessing.me/favicon.ico">
+    
+    <link rel="stylesheet" href="/css/style.min.css">
+
+    <link rel="canonical" href="http://www.christianblessing.me/yi-action-cam-sd-karte-formatieren/" />
+    <title>Yi Action Cam: SD Karte formatieren</title>
+</head>
+<body><header id="banner">
+    <h2><a href="http://www.christianblessing.me/">christianblessing.me</a></h2>
+    <nav>
+        <ul>
+            <li>
+                <a href="/about/" title="about">about</a>
+            </li><li>
+                <a href="/impressum/" title="imprint">imprint</a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main id="content">
+<article>
+    <header id="post-header">
+        <h1>Yi Action Cam: SD Karte formatieren</h1>
+        <div>
+                <time>September 13, 2019</time>
+            </div>
+    </header><p>Die Yi Action Cam ist eine kostengünstige (ca. 50EUR im Retail, Stand 03/2018) Action Cam von Yi Technologies, leider &ldquo;meckert&rdquo; sie, wenn man eine SD Karte mit einer Clustersize &gt; 32kB einlegt. Reguläre SD Karten sind nicht mit einer Clustersize von 32kB formatiert, das lässt sich jedoch unter OS X einfach beheben:</p>
+<p>Zuerst lassen wir uns alle Drives anzeigen:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-Bash" data-lang="Bash"><span class="line"><span class="cl">diskutil list</span></span></code></pre></div>
+<p>.. wir merken uns die disk-set-no der eingelegten SD Karte und unmounten die Disk:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-Bash" data-lang="Bash"><span class="line"><span class="cl">diskutil unmount /dev/<span class="o">{</span>disk-set-number<span class="o">}</span></span></span></code></pre></div>
+<p>.. und formatieren die SD Karte mit einer Clustersize von 32kB:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-Bash" data-lang="Bash"><span class="line"><span class="cl">sudo newfs_msdos -F <span class="m">32</span> -c <span class="m">64</span> -v <span class="o">{</span>volumeid<span class="o">}</span> /dev/<span class="o">{</span>disk<span class="o">}</span></span></span></code></pre></div>
+<p>Die Yi Action Cam sollte die SD Karte nun problemlos annehmen.</p>
+</article>
+
+        </main><footer id="footer">
+    
+</footer>
+</body>
+</html>
