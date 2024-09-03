@@ -2,7 +2,7 @@
 title = "Imprint / Impressum"
 +++
 
-## Angaben gemäß § 5 TMG-
+## Angaben gemäß § 5 TMG
 
 Christian Blessing  
 Wilhelm Liebknecht Straße 45  
