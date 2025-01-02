@@ -38,6 +38,3 @@ We all love them and use most of them in our every day lifes, little tools/helpe
 - [StandardNotes](https://standardnotes.com) [Paid]: privacy-first note-taking from Switzerland
 - [MIRO](https://miro.com) [Paid]: one, if not the best collaborative whiteboard solution out there
 - [Figma](https://figma.com) [Paid]: complete UI/UX setup in the browser
-
-
-
