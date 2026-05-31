@@ -12,6 +12,140 @@
     
     
     <item>
+      <title>MacOS helpers 2025 edition</title>
+      <link>http://www.christianblessing.me/macos-helpers-2025-edition/</link>
+      <pubDate>Fri, 06 Feb 2026 10:34:11 +0200</pubDate>
+      
+      <guid>http://www.christianblessing.me/macos-helpers-2025-edition/</guid>
+      <description>&lt;p&gt;We all love them and use most of them in our every day lifes, little tools/helpers we use to fulfil our goals when working with our system(s). Here&amp;rsquo;s my current list of tools that make my life easier. This is the successor of the &lt;a href=&#34;https://christianblessing.me/my-little-macos-helpders-2024-edition/&#34;&gt;2024&lt;/a&gt; and &lt;a href=&#34;https://christianblessing.me/my-little-macos-helpers-2021-edition/&#34;&gt;2021 edition&lt;/a&gt;.&lt;/p&gt;
+&lt;h3 id=&#34;system-extensions--menubar-tools&#34;&gt;System extensions / menubar tools&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://espanso.org/&#34;&gt;Espanso&lt;/a&gt; [Free]: free and mighty text replacement tool.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.thelasso.app/&#34;&gt;Lasso&lt;/a&gt; [Paid]: window manager with free definable window areas.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://alt-tab-macos.netlify.app/&#34;&gt;AltTab&lt;/a&gt; [Free]: brings the common Alt+Tab behavior to MacOS, replaces CMD+Tab with single window previous&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://shottr.cc/&#34;&gt;Shottr&lt;/a&gt; [Paid - free option available]: my favourite screenshot and annotation tool, native macOS application and ridiculously fast; comes with a screen ruler, OCR and the possibility to create scrolling screenshots.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://ollama.com/&#34;&gt;Ollama&lt;/a&gt; [Free]: download, manage and run large language models on your local machine (Apple silicon).&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://apps.apple.com/de/app/amphetamine/id937984704?mt=12&#34;&gt;Amphetamine&lt;/a&gt; [Free]: prevents your machine from going to sleep.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.raycast.com/&#34;&gt;Raycast&lt;/a&gt; [Paid - free option available]: app launcher, script launcher, system search - all in one. Completely replaced Alfred5 for me.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.mowglii.com/itsycal/&#34;&gt;Itsycal&lt;/a&gt; [Free]: tiny menu bar calendar, syncs with the macOS calendar application, supports dark mode, iso week numbers and much more.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/jordanbaird/Ice&#34;&gt;ICE&lt;/a&gt; [Free]: open-source menubar manager, replaced HiddenBar for me.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://meetingbar.onrender.com/&#34;&gt;Meeting Bar&lt;/a&gt; [Free]: displays upcoming Zoom, MS Teams, Skype, Google Hangouts calls in the menubar.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://lihaoyun6.github.io/quickrecorder/&#34;&gt;QuickRecorder&lt;/a&gt; [Free]: open-source screen recorder.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://obsidian.md/&#34;&gt;Obsidian&lt;/a&gt; [Free - paid version available]: one-stop-shop for taking and organizing notes.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://maccy.app/&#34;&gt;Maccy&lt;/a&gt; [Free - paid version available]: MacOS clipboard manager.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;productivity-tools&#34;&gt;Productivity tools&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://claude.ai/&#34;&gt;ClaudeCode&lt;/a&gt; [Paid]: CLI version of the Anthropic&amp;rsquo;s coding agent.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://1password.com/de&#34;&gt;1Password&lt;/a&gt; [Paid]: password manager, simple.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://iina.io/&#34;&gt;IINA&lt;/a&gt; [Free]: modern media player for MacOS, replaced VNC for me.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://cursor.com/&#34;&gt;Cursor&lt;/a&gt; [Free - paid version available]: VS Code fork on AI steroids.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://wezfurlong.org/wezterm/index.html&#34;&gt;wezTerm&lt;/a&gt; [Free]: cross-platform terminal emulator.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;webapps&#34;&gt;WebApps&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://nextcloud.com&#34;&gt;NextCloud&lt;/a&gt; [Free]: own-cloud Fork, basically your very own Cloud solution for file, storage, calendar, contact management - easily extendable via apps.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://proton.me&#34;&gt;ProtonMail&lt;/a&gt; [Paid]: privacy-first e-mail solution from Switzerland.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://miro.com&#34;&gt;MIRO&lt;/a&gt; [Paid]: one, if not the best collaborative whiteboard solution out there.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://figma.com&#34;&gt;Figma&lt;/a&gt; [Paid]: complete UI/UX setup in the browser.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    
+    
+    <item>
+      <title>My (little) MacOS helpders 2024 Edition</title>
+      <link>http://www.christianblessing.me/my-little-macos-helpders-2024-edition/</link>
+      <pubDate>Fri, 20 Dec 2024 12:34:11 +0200</pubDate>
+      
+      <guid>http://www.christianblessing.me/my-little-macos-helpders-2024-edition/</guid>
+      <description>&lt;p&gt;We all love them and use most of them in our every day lifes, little tools/helpers we use to fulfil our goals when working with our system(s). Here&amp;rsquo;s my current list of tools that make my life easier. This is the successor of the &lt;a href=&#34;https://christianblessing.me/my-little-macos-helpers-2021-edition/&#34;&gt;2021 edition&lt;/a&gt;.&lt;/p&gt;
+&lt;h3 id=&#34;system-extensions--menubar-tools&#34;&gt;System extensions / menubar tools&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://espanso.org/&#34;&gt;Espanso&lt;/a&gt; [Free]: free and mighty text replacement tool&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://mos.caldis.me/&#34;&gt;MOS&lt;/a&gt; [Free]: adds smooth scrolling for non-apple mice&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.thelasso.app/&#34;&gt;Lasso&lt;/a&gt; [Paid]: window manager with free definable window areas&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://alt-tab-macos.netlify.app/&#34;&gt;AltTab&lt;/a&gt; [Free]: brings the common Alt+Tab behavior to MacOS, replaces CMD+Tab with single window previous&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://shottr.cc/&#34;&gt;Shottr&lt;/a&gt; [Paid - free option available]: my favourite screenshot and annotation tool, native macOS application and ridiculously fast; comes with a screen ruler, OCR and the possibility to create scrolling screenshots&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://ollama.com/&#34;&gt;Ollama&lt;/a&gt; [Free]: download, manage and run large language models on your local machine (Apple silicon)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://apps.apple.com/de/app/amphetamine/id937984704?mt=12&#34;&gt;Amphetamine&lt;/a&gt; [Free]: prevents your machine from going to sleep&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.alfredapp.com/&#34;&gt;Alfred5&lt;/a&gt; [Paid]: spotlight replacement on steroids, you can literally search every file on your mac, the web or anything else you can imagine. Easily extendable via customer workflows built by other users or you invest some time developing your little snippet&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.mowglii.com/itsycal/&#34;&gt;Itsycal&lt;/a&gt; [Free]: tiny menu bar calendar, syncs with the macOS calendar application, supports dark mode, iso week numbers and much more&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://apps.apple.com/us/app/menu-world-time/id1446377255&#34;&gt;Menu World Time&lt;/a&gt; [Free]: displays multiple timezones on the menubar, valuable whenever you work with global remote-based teams)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/dwarvesf/hidden&#34;&gt;HiddenBar&lt;/a&gt; [Free]: open source lean Bartender alternative, simply hide icons in your menubar that you don&amp;rsquo;t need to see all the time&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://meetingbar.onrender.com/&#34;&gt;Meeting Bar&lt;/a&gt; [Free]: displays upcoming Zoom, MS Teams, Skype, Google Hangouts calls in the menubar&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://lihaoyun6.github.io/quickrecorder/&#34;&gt;QuickRecorder&lt;/a&gt; [Free]: open-source screen recorder&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;productivity-tools&#34;&gt;Productivity tools&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://zen-browser.app/&#34;&gt;ZEN Browser&lt;/a&gt; [Free]: privacy-first firefox-based browser&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://1password.com/de&#34;&gt;1Password&lt;/a&gt; [Paid]: password manager, simple&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://iina.io/&#34;&gt;IINA&lt;/a&gt; [Free]: modern media player for MacOS, replaced VNC for me&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.jetbrains.com/de-de/pycharm/&#34;&gt;PyCharm&lt;/a&gt; [Paid]: Python IDE&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://wezfurlong.org/wezterm/index.html&#34;&gt;wezTerm&lt;/a&gt; [Free]: cross-platform terminal emulator&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://msty.app/&#34;&gt;Msty&lt;/a&gt; [Free]: frontend for locally (or remotely) running large language models&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;webapps&#34;&gt;WebApps&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://nextcloud.com&#34;&gt;NextCloud&lt;/a&gt; [Free]: own-cloud Fork, basically your very own Cloud solution for file, storage, calendar, contact management - easily extendable via apps&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://proton.me&#34;&gt;ProtonMail&lt;/a&gt; [Paid]: privacy-first e-mail solution from Switzerland&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://standardnotes.com&#34;&gt;StandardNotes&lt;/a&gt; [Paid]: privacy-first note-taking from Switzerland&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://miro.com&#34;&gt;MIRO&lt;/a&gt; [Paid]: one, if not the best collaborative whiteboard solution out there&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://figma.com&#34;&gt;Figma&lt;/a&gt; [Paid]: complete UI/UX setup in the browser&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    
+    
+    <item>
+      <title>OsVac (Neo) Staubsaugeradapter</title>
+      <link>http://www.christianblessing.me/osvac-neo-staubsaugeradapter/</link>
+      <pubDate>Tue, 03 Sep 2024 12:34:11 +0200</pubDate>
+      
+      <guid>http://www.christianblessing.me/osvac-neo-staubsaugeradapter/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;http://www.christianblessing.me/images/osvac_logo.png&#34; alt=&#34;osvac_logo&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Fast jeder (Hobby)-Schreiner kennt das Problem: man hat verschiedene Elektrowerkzeuge zur Bearbeitung von Holz, sei es eine Handkreissäge, Schleifgerät oder Dickenhobel. Es fallen immer Späne, mal größer, mal kleiner an. Meist wird man nicht alle Geräte von einem Hersteller gekauft haben, somit passt der Absaugschlauch vom Staubsauger nicht an alle Geräte.&lt;/p&gt;
+&lt;p&gt;Man kann jetzt stumpf den Schlauch ohne Adapter versuchen auf die einzelnen Öffnungen mit Gewalt drüber zu stülpen, daran wird man aber nicht sehr lange Spaß haben. Der Schlauch leiert aus, es hält nicht sauber an der Maschine und der Staub und Dreck kommen doch wieder in die Werkstatt anstatt in den Staubsauger. Schritt zwei wird dann meist die brachiale Methode mit &lt;a href=&#34;https://www.amazon.de/3M-Universelles-Gewebeklebeband-2903-Schwarz/dp/B077VNDNJ8/&#34;&gt;Gewebeklebeband&lt;/a&gt; sein, das mag ein paar Tage halten, danach klebt dann aber nur der Schlauch und die Maschine, der Staub wird weiterhin nicht sauber abgesaugt.&lt;/p&gt;
+&lt;p&gt;Alternativ gibt es &lt;a href=&#34;https://www.amazon.de/St%C3%BCck-Schlauchadapter-universal-Staubsaugeradapter-Staubsaugerschlauch/dp/B08D3Y9WGM/&#34;&gt;Universalschlauchadapter&lt;/a&gt;, bzw. Reduzierstücke auf die gewünschten Durchmesser. Leider passen diese nicht auf alle Geräte und halten auch nur mäßig gut an der jeweiligen Maschine (sie fallen meist nach 5 min. Nutzung ab). Zudem müssen die Stücke zurechtgeschnitten werden, bei ca. 5€ pro Reduzierstück also nicht nachhaltig.&lt;/p&gt;
+&lt;h2 id=&#34;die-alternative-osvac&#34;&gt;Die Alternative: osVac&lt;/h2&gt;
+&lt;p&gt;Genau dieses Problem haben die Hobby-Heimwerker im &lt;a href=&#34;https://osvacneo.de/&#34;&gt;Hobbyhimmel&lt;/a&gt; in Stuttgart erkannt und &lt;a href=&#34;https://osvacneo.de/&#34;&gt;osVac&lt;/a&gt; bzw. osVac &lt;a href=&#34;https://osvacneo.de/&#34;&gt;Neo&lt;/a&gt; entwickelt. osVac ist ein Open-Source Verbindungssystem für elektrische Handwerkzeuge. Die 3D Modelle sind &lt;a href=&#34;https://osvacneo.de/downloads/&#34;&gt;frei erhältlich&lt;/a&gt; und können remixed werden, somit kann man sich für jedes nur denkbare Gerät, vorrausgesetzt man ist einer 3D CAD Anwendung mächtig und besitzt einen 3D Drucker, den passenden Adapter designen und anschließend drucken. Ich gehe hier absichtlich nicht auf duzende &amp;ldquo;Webshops&amp;rdquo; von &amp;ldquo;DIY YouTubern&amp;rdquo; ein, für einen simplen Adapter &amp;gt; 15€ aufzurufen ist m.M.n. einfach nur frech und widerspricht der Open Source Idee.&lt;/p&gt;
+&lt;p&gt;Es gibt auf &lt;a href=&#34;https://www.thingiverse.com/search?q=osvac&amp;amp;page=1&#34;&gt;Thingiverse&lt;/a&gt; duzende Modelle von Nutzern für alle möglichen Maschinen. Einfach herunterladen und drucken. Sollte das passende Modell nicht vorhanden sein, können die osVac Neo Dateien in Fusion360 geladen und nach den eigenen Bedürfnissen angepasst werden.&lt;/p&gt;
+&lt;p&gt;Das Grundprinzip besteht aus einem Female Stück (F), welches mit einem Innengewinde kommt, welches auf den Saugschlauch geschraubt wird. Die meisten Staubsaugerschläuche kommen mit einem Gewinde von 32mm, daher ist der F32 Adapter der gängigste. Selbstverständlich gibt es auch F-Adapter mit 32, 36, 40 oder 50mm - sollte das nicht ausreichen kann man sich mit den Vorlagen die Adapter auch an den eigenen Schlauchdurchmesser anpassen.&lt;/p&gt;
+&lt;p&gt;Das Gegenstück zu Female stellt das Male (M) Stück dar. Beide Teile formen zusammen einen simplen Baynonettverschluss - aufstecken, reindrücken und drehen. Damit sind beide Teile, Female (F) und Male (M) fest miteinander verbunden. In der Praxis wird man sich meist einen Female (F) Adapter drucken und dann für jede Maschine den passenden Male (M) Adapter. Die Adapter verbleiben in der Maschine, den Saugschlauch mit dem Female (F) Stück kann man dann nach Belieben an die jeweilige Maschien via dem Bayonettverschluss arretieren.&lt;/p&gt;
+&lt;h2 id=&#34;meine-erfahrungen-mit-osvac&#34;&gt;Meine Erfahrungen mit osVac&lt;/h2&gt;
+&lt;p&gt;OsVac per se war nicht neu für mich. In den Untiefen meiner Notizen hatte ich mir das System bereits notiert, kam aber bisher nicht dazu, die Adapter zu drucken und das System selber auszuprobieren.&lt;/p&gt;
+&lt;p&gt;Das Drucken selbst ist sehr einfach, wichtig ist nur, dass man keinen Support im Slicer verwendet - das mag am Anfang irritierend sein, macht aber Sinn. Die Teile sind relativ grob, das trifft auch auf die Gewinde zu (in meinem Fall ein F32mm Gewinde). Bei solchen Auflösungen benötigt man kein Support Material. Ich habe bei meinen ersten Druckversuchen leider den Fehler begangen und habe mit Support gedruckt. Das Gewinde vom Support zu befreien war kein Spaß und kann auch zu Ausriss am Gewinde selbst führen, zudem verlängert sich die Druckzeit mit Support bei der Größe der Adapter erheblich.&lt;/p&gt;
+&lt;p&gt;Die OsVac Rohdateien selbst sind super designed und einfach verständlich, auch die Remixe, welche man auf &lt;a href=&#34;https://www.thingiverse.com/search?q=osvac&amp;amp;page=1&#34;&gt;Thingiverse&lt;/a&gt; findet sind sehr hilfreich - entweder weil man noch nicht gut mit &lt;a href=&#34;https://www.autodesk.com/de/products/fusion-360/&#34;&gt;Fusion360&lt;/a&gt; o.Ä. zu Recht kommt, oder weil der passende Adapter bereits von einem anderen User erstellt wurde.&lt;/p&gt;
+&lt;h2 id=&#34;osvac-adapter&#34;&gt;OsVac Adapter&lt;/h2&gt;
+&lt;p&gt;Hier die Adapter, welche ich als Remixe heruntergeladen und gedruckt habe.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;F32 to M32 &lt;a href=&#34;%5BThingiverse%5D(https://www.thingiverse.com/thing:4562762)&#34;&gt;(Thingiverse)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;F32 Mirka Deros Orbitsander &lt;a href=&#34;%5BThingiverse%5D(https://www.thingiverse.com/thing:4678233)&#34;&gt;(Thingiverse)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;F32 Dewalt 7492 Tischkreissäge &lt;a href=&#34;https://www.thingiverse.com/thing:4967925&#34;&gt;(Thingiverse)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;F32 Festool Adapter (Kappex KS60) &lt;a href=&#34;https://www.thingiverse.com/thing:4822318&#34;&gt;(Thingiverse)&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;eigene-osvac-adapter-designs&#34;&gt;Eigene OsVac Adapter Designs&lt;/h2&gt;
+&lt;p&gt;Da ich für die &lt;a href=&#34;https://shop.scheppach.com/band-und-tellerschleifer-bts800-scheppach-diy&#34;&gt;Scheppach BTS800&lt;/a&gt; Band- und Tellerschleifemaschine, sowie für den &lt;a href=&#34;https://eur.vevor.com/benchtop-planer-c_10104/vevor-thickness-planer-13-inch-two-speed-three-blade-15-amp-for-woodworking-p_010145887280&#34;&gt;Vevor Dickenhobel&lt;/a&gt; bisher keine passenden Adapter finden konnte, habe ich diese fix selber in Fusion360 designed. Bei Bedarf könnt ihr diese auf Thingiverse herunterladen und nachdrucken.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;F32 Scheppach BTS800 &lt;a href=&#34;https://www.thingiverse.com/thing:6753270&#34;&gt;(Thingiverse)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;F32 Vevor Dickenhobel &lt;a href=&#34;https://www.thingiverse.com/thing:6753279&#34;&gt;(Thingiverse)&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;fusion-360-tipps-für-osvac-adapter&#34;&gt;Fusion 360 Tipps für OsVac Adapter&lt;/h2&gt;
+&lt;p&gt;Da ich selbst etwa eine knappe Stunde in das Thema investiert habe und bisher keine passenden Anleitungen dafür auf YouTube o. Ä. gefunden habe, werdet ihr oft vor der Herausforderung stehen, eine Verbindung von einem hohlen Zylinder zu einem anderen hohlen Zylinder herstellen zu wollen – von 32 mm auf X mm (Euer anzupassender Durchmesser für die Absaugung an der Maschine).&lt;/p&gt;
+&lt;p&gt;Erstellt zuerst zwei Sketches mit Kreisen, d.h. einmal 37.8mm und 50mm (exemplarischer Wert). Und definiert danach die Höhe der beiden, z.B. 20mm Abstand.&lt;/p&gt;
+&lt;p&gt;Erstellt jetzt einen Body aus den zwei Kreisen mit dem Befehl Create -&amp;gt; Loft. Danach solltet ihr einen konisch zulaufenden Zylinder haben, dieser hat bisher jedoch noch kein Loch in der MItte.&lt;/p&gt;
+&lt;p&gt;Erstellt dafür auf dem schmaleren Ende (37.8mm) einen weiteren Kreis Sketch mit dem Durchmesser von 32mm - somit bleibt ein Rand von 2.9mm stehen. Auf der anderen Seite (50mm) erstellt ihr den gewünschten Innendurchmesser mit 44.2mm - hier bleiben also auch 2.9mm als Wandstärke stehen.&lt;/p&gt;
+&lt;p&gt;Jetzt verbindet ihr beide Sketches wieder mit dem Create -&amp;gt; Loft Befehl und wählt Cut als Option. Wenn alles geklappt hat, solltet ihr einen konische zulaufenden Zylinder mit einer durchgehenden Wandstärke von 2.9mm erhalten haben.&lt;/p&gt;
+&lt;p&gt;Man könnte meinen, dass sich der gleiche Effekt mit Modify -&amp;gt; Shell erzielen ließe. Dem ist jedoch (leider) nicht so. Shell höhlt den Körper zwar aus, dabei bleiben jedoch immer der Deckel und der Boden des Körpers bestehen. Versucht man nun, den Deckel negativ zu extrudieren, bleibt die Wandstärke logischerweise nicht gleich – auf einer Seite wird die Wandstärke nicht passen.&lt;/p&gt;
+&lt;p&gt;Je nach Bedarf könnt ihr jetzt noch mit Modify -&amp;gt; Fillet oder Modify -&amp;gt; Chamfer die Ecken abrunden. Meiner Erfahrung nach ist das jedoch nicht notwendig. Es könnte bei sehr großen Adaptern relevant an der Innenseite werden, sodass ein gleichbleibender Luftstrom ohne Verwirbelungen erreicht werden kann.&lt;/p&gt;
+</description>
+    </item>
+    
+    
+    
+    <item>
       <title>Surface Pro 8 Diary</title>
       <link>http://www.christianblessing.me/surface-pro-8-diary/</link>
       <pubDate>Wed, 31 May 2023 00:00:00 +0000</pubDate>
