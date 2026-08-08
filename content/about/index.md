@@ -2,7 +2,7 @@
 title = "About"
 +++
 
-Welcome to my blog. Chris is my first name and I guess it isn't hard to guess what my last name is; beginning of my thirties, managing technical products to pay off my home loan and pretty much into most nerdy things, besides enjoying woodworking and photography. 
+Welcome to my blog. Chris is my first name and I guess it isn't hard to guess what my last name is; mid of my thirties, managing software products and pretty much into most nerdy things, besides enjoying woodworking and photography. 
 
 The blog doesn't follow any strict release dates nor plans, whenever there's something I feel is worth publishing, it will get published. Content is mixed - sometimes in German, sometimes in English. Have no qualms using the web translation service of your choice. It changes display mode based on your device, if you are using darkmode, the blog will use as well.
 
