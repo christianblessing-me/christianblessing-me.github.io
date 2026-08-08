@@ -4,7 +4,7 @@ date: 2026-08-08T10:34:11+02:00
 draft: false
 ---
 
-Espanso is my default text replacement tool, I've been using it since years. I mainly replaced plain text: terminal commands, email phrases and so on. Recently I stumbled upon the issue that with Slack's way of formatting pasting plain text does not do the trick, formatting like bullets or text weight won't work.
+[Espanso](https://espanso.org/) is my default text replacement tool, I've been using it since years. I mainly replaced plain text: terminal commands, email phrases and so on. Recently I stumbled upon the issue that with Slack's way of formatting pasting plain text does not do the trick, formatting like bullets or text weight won't work.
 
 I figured that Espanso is also able to execute bash scripts on trigger: replace. By doing so you can use shell scripts to populate the clipboard and then use Espanso to replace the text.
 
