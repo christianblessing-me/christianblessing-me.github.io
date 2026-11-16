@@ -4,8 +4,9 @@
     {{ with .Site.Params.description -}}
     <meta name="description" content="{{ . }}">
     {{ end }}
-    {{ printf `<link rel="shortcut icon" href="%s">` ("favicon.ico" | absURL) | safeHTML }}
-    <link rel="icon" type="image/svg+xml" sizes="any" href="{{ "favicon.svg" | relURL }}">
+    {{ $iconVersion := substr (sha256 (readFile "static/favicon.svg")) 0 12 }}
+    <link rel="icon" type="image/x-icon" sizes="16x16 32x32 48x48 64x64 128x128 256x256" href="{{ "favicon.ico" | relURL }}?v={{ $iconVersion }}">
+    <link rel="icon" type="image/svg+xml" sizes="any" href="{{ "favicon.svg" | relURL }}?v={{ $iconVersion }}">
     {{ with .OutputFormats.Get "rss" -}}
         {{ printf `<link rel="%s" type="%s" href="%s" title="%s">` .Rel .MediaType.Type .Permalink $.Site.Title | safeHTML }}
     {{ end -}}
