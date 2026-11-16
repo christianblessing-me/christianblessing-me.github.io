@@ -1,13 +1,18 @@
 +++
-title = "About"
+title = "about me"
 +++
 
-Welcome to my blog. Chris is my first name and I guess it isn't hard to guess what my last name is; mid of my thirties, managing software products and pretty much into most nerdy things, besides enjoying woodworking and photography. 
+Chris is my first name and I guess it is not hard to guess what my last name is. Mid of my thirties, building and managing software products in the medical sphere and pretty much into most nerdy things, besides enjoying woodworking and photography. 
 
-The blog doesn't follow any strict release dates nor plans, whenever there's something I feel is worth publishing, it will get published. Content is mixed - sometimes in German, sometimes in English. Have no qualms using the web translation service of your choice. It changes display mode based on your device, if you are using darkmode, the blog will use as well.
+Whenever there is something I feel is worth publishing, you can find it here. Content is mixed. Smetimes in German, sometimes in English. Feel free to use the translation service of your choice.
 
-One can find me here as well, mostly inactive on social media: [Instagram](https://www.instagram.com/christianblessing.me/), [X/Twitter](https://www.twitter.com/chrstnblssng), [LinkedIn](https://www.linkedin.com/in/christianblessing/), [BlueSky](https://bsky.app/profile/christian-blessing.bsky.social), [Mastodon](https://mastodon.social/@christianblessing) and [Threads](https://www.threads.net/@christianblessing.me).
+If you wanna get in touch shoot me an email (see [imprint](https://christianblessing.me/impressum/)) or find me here: 
 
-This is a low tech website: no tracking, no ads, no cookies and no nonsense. The blog is hosted on [GitHub](https://github.com) and powered by [Hugo](https://github.com/gohugoio) - an open source static website generator. It's getting deployed via [GitHub Actions](https://github.com/features/actions). Feel free to browse the [blog's repository](https://github.com/christianblessing-me/christianblessing-me.github.io), there's nothing to hide.
+* [Instagram](https://www.instagram.com/christianblessing.me/)
+* [LinkedIn](https://www.linkedin.com/in/christianblessing/)
+* [Mastodon](https://mastodon.social/@christianblessing)
+* [GitHub](https://github.com/christianblessing-me/)
+
+This is a very low tech website: no tracking, no ads, no cookies, no nonsense. The blog is hosted on [GitHub](https://github.com) and powered by [Hugo](https://github.com/gohugoio) - an open source go-based static website generator.
 
 All of the content published here is licensed with [CC BY-NC-SA 3.0](https://creativecommons.org/licenses/by-nc-sa/3.0/) - you can share and redistribute the content in any medium or format. You can adapt, remix, transform or build upon this as long as you are attributing this blog, don't use it commercially and please share the remixed content also with CC BY-NC-SA 3.0.

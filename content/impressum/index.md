@@ -1,5 +1,5 @@
 +++
-title = "Imprint / Impressum"
+title = "imprint"
 +++
 
 ## Angaben gemäß § 5 TMG
