@@ -1,5 +1,4 @@
-baseURL = 'http://www.christianblessing.me/'
-#baseURL = 'http://christianblessing-me.github.io/blog/'
+baseURL = 'https://christianblessing.me/'
 locale = 'en-US'
 title = 'christianblessing.me'
 theme = "etch"
