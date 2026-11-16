@@ -1,6 +1,6 @@
 baseURL = 'http://www.christianblessing.me/'
 #baseURL = 'http://christianblessing-me.github.io/blog/'
-languageCode = 'en-us'
+locale = 'en-US'
 title = 'christianblessing.me'
 theme = "etch"
 publishDir = "public"
