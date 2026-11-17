@@ -12,6 +12,7 @@ If you wanna get in touch shoot me an email (see [imprint](https://christianbles
 * [LinkedIn](https://www.linkedin.com/in/christianblessing/)
 * [Mastodon](https://mastodon.social/@christianblessing)
 * [GitHub](https://github.com/christianblessing-me/)
+* [Thingiverse](https://www.thingiverse.com/christianblessing_me/designs)
 
 This is a very low tech website: no tracking, no ads, no cookies, no nonsense. The blog is hosted on [GitHub](https://github.com) and powered by [Hugo](https://github.com/gohugoio) - an open source go-based static website generator.
 
